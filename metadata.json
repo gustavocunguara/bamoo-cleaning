@@ -1,0 +1,6 @@
+{
+  "name": "Bamoo Cleaning - North Shore Estate Care",
+  "description": "Premier architectural cleaning and residential care for luxury estates across West Vancouver, British Properties, and North Vancouver.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
