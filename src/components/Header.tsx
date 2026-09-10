@@ -23,10 +23,12 @@ export const Header: React.FC<HeaderProps> = ({
   const navItems: { label: string; tab: PageTab }[] = [
     { label: 'Home', tab: 'home' },
     { label: 'Services', tab: 'services' },
+    /*
     { label: 'Service Areas', tab: 'service-areas' },
     { label: 'Why Bamoo', tab: 'why-bamoo' },
     { label: 'Reviews', tab: 'reviews' },
     { label: 'Pricing & Quote', tab: 'pricing-and-quote' },
+    */
   ];
 
   const handleNavClick = (tab: PageTab) => {

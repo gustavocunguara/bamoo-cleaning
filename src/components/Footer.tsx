@@ -88,7 +88,7 @@ export const Footer: React.FC<FooterProps> = ({ setActiveTab, onOpenBooking, onC
                   onClick={() => navigate('services')}
                   className="hover:text-[#003c90] transition-colors text-left"
                 >
-                  Recurring Estate Maintenance
+                  Recurring Home Maintenance
                 </button>
               </li>
               <li>
@@ -96,7 +96,7 @@ export const Footer: React.FC<FooterProps> = ({ setActiveTab, onOpenBooking, onC
                   onClick={() => navigate('services')}
                   className="hover:text-[#003c90] transition-colors text-left"
                 >
-                  Architectural Deep Refresh
+                  Luxury Deep &amp; Seasonal Refresh
                 </button>
               </li>
               <li>
@@ -104,10 +104,10 @@ export const Footer: React.FC<FooterProps> = ({ setActiveTab, onOpenBooking, onC
                   onClick={() => navigate('services')}
                   className="hover:text-[#003c90] transition-colors text-left"
                 >
-                  Move-In &amp; Transition Detailing
+                  Move-In &amp; Move-Out Detail Clean
                 </button>
               </li>
-              <li>
+              {/*<li>
                 <button
                   onClick={() => navigate('services')}
                   className="hover:text-[#003c90] transition-colors text-left"
@@ -130,7 +130,7 @@ export const Footer: React.FC<FooterProps> = ({ setActiveTab, onOpenBooking, onC
                 >
                   Custom Estate Estimate →
                 </button>
-              </li>
+              </li>*/}
             </ul>
           </div>
 
